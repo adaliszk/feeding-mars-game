@@ -1,0 +1,29 @@
+# Unity generated
+**/[Ll]ibrary/*
+**\[Ll]ibrary\*
+**/[Tt]emp/*
+**\[Tt]emp\*
+**/[Oo]bj/*
+**\[Oo]bj\*
+**/[Bb]uilds/*
+**\[Bb]uilds\*
+ 
+# MonoDevelop generated
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.pidb.meta
+*.booproj
+*.svd
+ 
+# Unity3D Crash Reports
+sysinfo.txt
+ 
+# Gitmodules
+Packages/com.unity.2d.tilemap.extras
+Packages\com.unity.2d.tilemap.extras
