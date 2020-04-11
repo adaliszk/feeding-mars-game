@@ -16,8 +16,11 @@ MonoBehaviour:
   introduction: 
   avatar: {fileID: 0}
   hunger: 4
-  moveSpeed: 3
-  positionX: 0
-  positionY: 0
-  animation: Idle
-  orientation: BottomLeft
+  moveSpeed: 1
+  animation: Idle-Forward
+  positionX: 0.3600006
+  positionY: 1.7399988
+  moveDirectionX: 0
+  moveDirectionY: 0
+  lookDirectionX: 1.4542284
+  lookDirectionY: 3.6631632

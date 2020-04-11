@@ -26,21 +26,27 @@ public class PlayerController : MonoBehaviour
 
     public void Update()
     {
-        UpdateMoveDirection();
-        UpdateMouseDirection();
-        UpdateLookDirection();
+        UpdateMousePosition();
+        UpdateDirectionInput();
     }
     
     public void FixedUpdate()
     {
+        // Movement
         MovePlayer();
+        
+        // Data
         UpdatePlayerPosition();
-        UpdateMouseDirection();
+        
+        // Animation
+        UpdateMousePosition();
+        UpdateMoveDirection();
         UpdateLookDirection();
     }
     #endregion
 
-    private void UpdateMouseDirection()
+    #region Input
+    private void UpdateMousePosition()
     {
         var mouse = viewportCamera.ScreenToWorldPoint(Input.mousePosition);
         var player = _player.position;
@@ -51,21 +57,31 @@ public class PlayerController : MonoBehaviour
             y = (mouse.y - player.y),
         };
     }
-
-
-    private void UpdateMoveDirection()
+    private void UpdateDirectionInput()
     {
         _playerMoveDirection = new Vector2
         {
-            x = Input.GetAxisRaw("Horizontal"),
-            y = Input.GetAxisRaw("Vertical"),
+            x = Input.GetAxisRaw("Horizontal") * 1.5f,
+            y = Input.GetAxisRaw("Vertical") * 1.5f,
         };
     }
+    #endregion
 
-
+    #region Animation
     private static readonly int LookDirectionX = Animator.StringToHash("LookDirectionX");
     private static readonly int LookDirectionY = Animator.StringToHash("LookDirectionY");
-
+    private static readonly int MoveDirectionX = Animator.StringToHash("MoveDirectionX");
+    private static readonly int MoveDirectionY = Animator.StringToHash("MoveDirectionY");
+    
+    private void UpdateMoveDirection()
+    {
+        _animator.SetFloat(MoveDirectionX, _playerMoveDirection.x);
+        _animator.SetFloat(MoveDirectionY, _playerMoveDirection.y);
+        
+        characterData.animation = GetCurrentAnimation().name;
+        characterData.SetMoveDirection(_playerMoveDirection);
+    }
+    
     private void UpdateLookDirection()
     {
         _animator.SetFloat(LookDirectionX, _mouseDirection.x);
@@ -80,8 +96,9 @@ public class PlayerController : MonoBehaviour
         var characterAnimationInfo = _animator.GetCurrentAnimatorClipInfo(0);
         return characterAnimationInfo[0].clip;
     }
+    #endregion
     
-    
+    #region Movement
     private void MovePlayer()
     {
         _player.MovePosition(
@@ -89,9 +106,9 @@ public class PlayerController : MonoBehaviour
         );
     }
 
-    
     private void UpdatePlayerPosition()
     {
         characterData.SetPosition(_player.position);
     }
+    #endregion
 }

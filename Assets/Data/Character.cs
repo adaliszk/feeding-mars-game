@@ -12,16 +12,19 @@ namespace Data
         
         // Gameplay
         public int hunger = 4;
-        public float moveSpeed = 3f;
+        public float moveSpeed = .1f;
         
         // Rendering
         public string animation = "Idle-BottomRight";
         
-        public float positionX = 0;
-        public float positionY = 0;
-
-        public float lookDirectionX = 0;
-        public float lookDirectionY = 0;
+        public float positionX;
+        public float positionY;
+        
+        public float moveDirectionX;
+        public float moveDirectionY;
+        
+        public float lookDirectionX;
+        public float lookDirectionY;
 
         public void SetPosition(Vector2 position)
         {
@@ -33,6 +36,12 @@ namespace Data
         {
             lookDirectionX = lookingDirection.x;
             lookDirectionY = lookingDirection.y;
+        }
+        
+        public void SetMoveDirection(Vector2 movementDirection)
+        {
+            moveDirectionX = movementDirection.x;
+            moveDirectionY = movementDirection.y;
         }
     }
 }

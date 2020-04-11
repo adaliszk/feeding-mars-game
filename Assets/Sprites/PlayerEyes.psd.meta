@@ -1,100 +1,73 @@
 fileFormatVersion: 2
-guid: ea28920de5b195647ae10e854f516993
+guid: 3cadae6941b4268409da5b7eca80583e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2311659948842064771
-    second: Player-Idle0-BottomRight
+      213: -6315415111653441507
+    second: PlayerEyes-Up
   - first:
-      213: -7584956380549873370
-    second: Player-Idle0-BottomRight
+      213: 6587555726201342191
+    second: PlayerEyes-UpRight
   - first:
-      213: 7364682651488144517
-    second: Player-Idle0-BottomLeft
+      213: 9185098613558167507
+    second: PlayerEyes-Right
   - first:
-      213: 6651041511453414704
-    second: Player-Idle0-BottomLeft
+      213: -5816660946830703219
+    second: PlayerEyes-DownRight
   - first:
-      213: -6287787046888575383
-    second: Player-Idle0-TopRight
+      213: 6696605484697522756
+    second: PlayerEyes-Down
   - first:
-      213: -1182821291677670348
-    second: Player-Idle0-TopLeft
+      213: -5378500598583348081
+    second: PlayerEyes-DownLeft
   - first:
-      213: -7584956380549873370
-    second: Player-Idle0-Forward
+      213: 936779370754409092
+    second: PlayerEyes-Left
   - first:
-      213: 6651041511453414704
-    second: Player-Idle1-Forward
+      213: -419627199962979161
+    second: PlayerEyes-UpLeft
   - first:
-      213: 8654590631379428793
-    second: Player-Idle2-Forward
+      213: 8145815950632072339
+    second: PlayerEyes-Up-Blink1
   - first:
-      213: 2104903475122899212
-    second: Player-Idle0-Right
+      213: -2630688496498635838
+    second: PlayerEyes-Up-Blink2
   - first:
-      213: -4709456396536258026
-    second: Player-Idle0-Backward
+      213: 8681349697268868592
+    second: PlayerEyes-Up-Blink3
   - first:
-      213: -4529042392078601758
-    second: Player-Idle0-Left
+      213: 5344127154377487484
+    second: PlayerEyes-Up
   - first:
-      213: -2311659948842064771
-    second: Player-Idle0-Forward
+      213: 6796937496286733385
+    second: PlayerEyes-UpRight
   - first:
-      213: 7364682651488144517
-    second: Player-Walk1-Forward
+      213: -1072755262528681859
+    second: PlayerEyes-Right
   - first:
-      213: -6287787046888575383
-    second: Player-Walk2-Forward
+      213: 173413282319928941
+    second: PlayerEyes-DownRight
   - first:
-      213: -1182821291677670348
-    second: Player-Walk3-Forward
+      213: 5058762123017000599
+    second: PlayerEyes-Down
   - first:
-      213: 1550346661786639224
-    second: Player-Walk4-Forward
+      213: -3834051388832566611
+    second: PlayerEyes-DownLeft
   - first:
-      213: -2137104641423072030
-    second: Player_5
+      213: 7646333853109188066
+    second: PlayerEyes-Left
   - first:
-      213: -7446026091647042388
-    second: Player_6
+      213: -7273393472464857303
+    second: PlayerEyes-UpLeft
   - first:
-      213: -7584956380549873370
-    second: Player-Idle0-Forward
+      213: -6551872338452205273
+    second: PlayerEyes-Up-Blink1
   - first:
-      213: 6651041511453414704
-    second: Player-Walk1-Forward
+      213: -2825928044627996684
+    second: PlayerEyes-Up-Blink2
   - first:
-      213: 8654590631379428793
-    second: Player-Walk2-Forward
-  - first:
-      213: 2104903475122899212
-    second: Player-Walk3-Forward
-  - first:
-      213: -4709456396536258026
-    second: Player-Walk4-Forward
-  - first:
-      213: -4529042392078601758
-    second: Player_5
-  - first:
-      213: -2913840584061128028
-    second: Player_6
-  - first:
-      213: -2311659948842064771
-    second: Player-Idle0-Forward
-  - first:
-      213: 6651041511453414704
-    second: Player-Walk1-Forward
-  - first:
-      213: 8654590631379428793
-    second: Player-Walk2-Forward
-  - first:
-      213: 2104903475122899212
-    second: Player_Walk3-Forward
-  - first:
-      213: -4709456396536258026
-    second: Player-Walk4-Forward
+      213: 8180427029840081032
+    second: PlayerEyes-Up-Blink3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -124,7 +97,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: -1
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -138,7 +111,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -159,7 +132,7 @@ TextureImporter:
     textureFormat: 4
     textureCompression: 1
     compressionQuality: 50
-    crunchedCompression: 0
+    crunchedCompression: 1
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
@@ -171,7 +144,7 @@ TextureImporter:
     textureFormat: 4
     textureCompression: 1
     compressionQuality: 50
-    crunchedCompression: 0
+    crunchedCompression: 1
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
@@ -183,7 +156,7 @@ TextureImporter:
     textureFormat: 4
     textureCompression: 1
     compressionQuality: 50
-    crunchedCompression: 0
+    crunchedCompression: 1
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
@@ -195,7 +168,7 @@ TextureImporter:
     textureFormat: 4
     textureCompression: 1
     compressionQuality: 50
-    crunchedCompression: 0
+    crunchedCompression: 1
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
@@ -204,148 +177,232 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Player-Walk1-Forward
+      name: PlayerEyes-Up
       rect:
         serializedVersion: 2
-        x: 41
-        y: 225
-        width: 14
-        height: 27
+        x: 0
+        y: 42
+        width: 9
+        height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 035de84140f3d4c50800000000000000
-      internalID: 6651041511453414704
+      spriteID: c74703f15572a2a40800000000000000
+      internalID: 5344127154377487484
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player-Walk2-Forward
+      name: PlayerEyes-UpRight
       rect:
         serializedVersion: 2
-        x: 73
-        y: 224
-        width: 14
-        height: 27
+        x: 9
+        y: 42
+        width: 9
+        height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9b56bc343584b1870800000000000000
-      internalID: 8654590631379428793
+      spriteID: 94424b224a2935e50800000000000000
+      internalID: 6796937496286733385
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_Walk3-Forward
+      name: PlayerEyes-Right
       rect:
         serializedVersion: 2
-        x: 104
-        y: 224
-        width: 14
-        height: 27
+        x: 18
+        y: 42
+        width: 9
+        height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c098f21fe8e163d10800000000000000
-      internalID: 2104903475122899212
+      spriteID: d780c0eb5cecc11f0800000000000000
+      internalID: -1072755262528681859
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player-Walk4-Forward
+      name: PlayerEyes-DownRight
       rect:
         serializedVersion: 2
-        x: 136
-        y: 225
-        width: 14
-        height: 27
+        x: 27
+        y: 42
+        width: 9
+        height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 612e34feb56a4aeb0800000000000000
-      internalID: -4709456396536258026
+      spriteID: d6e83042676186200800000000000000
+      internalID: 173413282319928941
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_5
+      name: PlayerEyes-Down
       rect:
         serializedVersion: 2
-        x: 10
-        y: 162
-        width: 12
-        height: 27
+        x: 0
+        y: 36
+        width: 9
+        height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2e13877b0fb9521c0800000000000000
-      internalID: -4529042392078601758
+      spriteID: 79611a13955543640800000000000000
+      internalID: 5058762123017000599
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_6
+      name: PlayerEyes-DownLeft
       rect:
         serializedVersion: 2
-        x: 8
-        y: 98
-        width: 15
-        height: 27
+        x: 9
+        y: 36
+        width: 9
+        height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4a27bee4d65ff87d0800000000000000
-      internalID: -2913840584061128028
+      spriteID: da2ba065396bacac0800000000000000
+      internalID: -3834051388832566611
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player-Idle0-Forward
+      name: PlayerEyes-Left
       rect:
         serializedVersion: 2
-        x: 8
-        y: 226
-        width: 15
-        height: 27
+        x: 18
+        y: 36
+        width: 9
+        height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d7465c336855befd0800000000000000
-      internalID: -2311659948842064771
+      spriteID: 2e5fd9c902c3d1a60800000000000000
+      internalID: 7646333853109188066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerEyes-UpLeft
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 36
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92756124c27bf0b90800000000000000
+      internalID: -7273393472464857303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerEyes-Up-Blink1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 24
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72139dc42d21315a0800000000000000
+      internalID: -6551872338452205273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerEyes-Up-Blink2
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 24
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ff42237a6948c8d0800000000000000
+      internalID: -2825928044627996684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerEyes-Up-Blink3
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 24
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8803f98ba07b68170800000000000000
+      internalID: 8180427029840081032
       vertices: []
       indices: 
       edges: []
